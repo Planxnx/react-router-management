@@ -2,5 +2,6 @@ export interface IRoutes {
   exactly?: boolean
   path?: string
   name?: string
-  component: React.FC
+  component?: React.FC
+  group?: IRoutes[]
 }

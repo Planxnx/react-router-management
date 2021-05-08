@@ -12,6 +12,8 @@ npm install --save react-router-management
 
 ## Usage
 
+### Basic
+
 ```tsx
 // App.tsx
 import React, { Component } from 'react'
@@ -38,7 +40,7 @@ export default () => {
 }
 ```
 
-or
+### With Router file
 
 ```tsx
 // router/index.ts
@@ -72,6 +74,29 @@ const App: React.FC = () => {
 }
 
 export default App
+```
+
+### Grouping
+
+```ts
+// example for /user/hello
+const routes = [
+  {
+    path: '/user',
+    group: [
+      {
+        path: '/hello',
+        name: 'HelloWorld',
+        component: HelloWorldPage
+      }
+    ]
+  },
+  {
+    path: '*',
+    name: '404',
+    component: 404Page
+  }
+]
 ```
 
 ## License

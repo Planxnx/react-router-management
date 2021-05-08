@@ -1,6 +1,6 @@
 {
   "name": "react-router-management",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "inspired by vue-router",
   "author": "Planxnx",
   "license": "MIT",
@@ -65,5 +65,14 @@
     "@types/react-router-dom": "^5.1.7",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0"
-  }
+  },
+  "keywords": [
+    "react-router-management",
+    "react-router",
+    "react",
+    "react-router-dom",
+    "vue-router",
+    "router",
+    "router-management"
+  ]
 }
