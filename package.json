@@ -2,7 +2,7 @@
   "name": "react-router-management",
   "version": "0.2.0",
   "description": "inspired by vue-router",
-  "author": "Planxnx",
+  "author": "Thanee Charattrakool <planxthanee@gmail.com>",
   "license": "MIT",
   "repository": "Planxnx/react-router-management",
   "main": "dist/index.js",
